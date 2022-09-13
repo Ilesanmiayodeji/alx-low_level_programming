@@ -5,7 +5,7 @@
  * h = hour, m = minutes
  * / 10 allows second digit to rotate
  * for loop breaks before passing 24:00
- * Return: 24 hour clock line by line
+ * 24 hour clock line by line
  * Description: function prints every minute in one day
  * Return: Nothing
  */
