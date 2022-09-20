@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * puts_half - a function that prints half of a string, followed by a new line.
- * @str: An input string
+ * print_array - this function prints n elements of an array of integers.
+ * @a: pointer parameter
+ * @n: integer variable
  * Return: Nothing
  */
 
