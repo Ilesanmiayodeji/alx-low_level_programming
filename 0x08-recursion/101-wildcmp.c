@@ -10,7 +10,7 @@ int wildcmp(char *s1, char *s2);
  *                   ignoring wildcard characters.
  * @str: The string to be measured.
  *
- * @str: The string to be measured.
+ * Return: The length.
  */
 
 int strlen_no_wilds(char *str)
@@ -30,8 +30,7 @@ int strlen_no_wilds(char *str)
 	return (len);
 }
 
-
-/** 
+/**
  * iterate_wild - Iterates through a string located at a wildcard
  *                until it points to a non-wildcard character.
  * @wildstr: The string to be iterated through.
